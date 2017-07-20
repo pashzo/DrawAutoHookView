@@ -84,7 +84,7 @@ public class DrawAutoHookView extends View {
 
 
         //每隔10毫秒界面刷新
-        postInvalidateDelayed(100);
+        postInvalidateDelayed(2);
     }
 
     /**
