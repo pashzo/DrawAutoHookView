@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="com.demo.ihealth.drawhookviewdemo.MainActivity">
+
+    <com.demo.ihealth.drawhookviewdemo.DrawAutoHookView
+        android:id="@+id/duihao"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:text="Hello World!"
+        android:layout_centerInParent="true" />
+    <Button
+        android:id="@+id/btn1"
+        android:layout_alignParentBottom="true"
+        android:text="restart"
+        android:layout_width="match_parent"
+        android:layout_height="90dp" />
+
+</RelativeLayout>
